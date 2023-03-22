@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--引入DTD约束文件 约束自己-->
+<!--注释内容-->
+<!--本XML文件用于描述多个学生信息-->
+<students>
+    <student id="1">
+        <name>张三</name>
+        <age>24</age>
+        <info>&lt;学生的信息&gt;</info>
+        <message><![CDATA[内容，。，。，《》《》《<><><>]]></message>
+    </student>
+    <student id="2">
+        <name>李四</name>
+        <age>25</age>
+    </student>
+    <aaa></aaa>
+</students>

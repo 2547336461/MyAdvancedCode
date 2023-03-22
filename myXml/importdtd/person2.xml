@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--在XML文件内部引入DTD约束文件约束自己-->
+<!DOCTYPE persons [
+        <!ELEMENT persons (person)>
+        <!ELEMENT person (name,age)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        ]>
+
+<persons>
+    <person>
+        <name>张三</name>
+        <age>24</age>
+    </person>
+
+</persons>

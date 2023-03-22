@@ -1,0 +1,8 @@
+<!--加号表示可以出现一次或多次-->
+<!ELEMENT persons (person+)>
+<!--逗号表示顺序-->
+<!ELEMENT person (name,age)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST person id CDATA #REQUIRED>
